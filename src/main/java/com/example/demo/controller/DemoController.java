@@ -12,6 +12,6 @@ public class DemoController {
 
     @GetMapping("/print")
     public ResponseEntity print(){
-        return new ResponseEntity("Successfully deployed in GCP", HttpStatus.OK);
+        return new ResponseEntity("Successfully deployed in Google cloud platform", HttpStatus.OK);
     }
 }
